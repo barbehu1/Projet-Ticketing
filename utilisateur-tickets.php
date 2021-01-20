@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-	<link rel="stylesheet" type="text/css" href="style-utilisateur-tickets.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
@@ -48,7 +48,7 @@
 		</div>
 
   		<br>
-  		<div class="row">
+  		<div class="row align-items-center">
   			<div class="w-100"></div>
 			<div class="col"><div class="alert alert-danger rounded-pill" role="alert">P1</div></div>
 			<div class="col">Moi</div>
@@ -57,7 +57,7 @@
 			<div class="col-2"><div class="alert alert-success rounded-pill" role="alert">VALIDÉ</div></div>
 			<div class="col">Hugo Barbé</div>
 			<div class="col"><i class="far fa-envelope"></i></div>
-
+			
 			<div class="w-100"></div>
 			<div class="col"><div class="alert alert-primary rounded-pill" role="alert">P3</div></div>
 			<div class="col">Moi</div>
@@ -68,7 +68,7 @@
 			<div class="col"><i class="far fa-envelope"></i></div>
 
 			<div class="w-100"></div>
-			<div class="col"><div class="alert alert-warning rounded-pill" role="alert">P3</div></div>
+			<div class="col"><div class="alert alert-warning rounded-pill" role="alert">P2</div></div>
 			<div class="col">Moi</div>
 			<div class="col-5">Problème d'ouverture de session</div>
 			<div class="col">03/07/2003</div>
