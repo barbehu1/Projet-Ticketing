@@ -1,0 +1,51 @@
+html, body, * {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page de connexion */
+
+.body-connexion {
+    background-color: #2BA1AE;
+    padding-top: 25vh;
+}
+
+.container-connexion {
+    height: 48vh;
+    border-radius: 60px;
+}
+
+.titre-connexion {
+    color: #2BA1AE;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.label-connexion {
+    font-size: 20px;
+    color: #2BA1AE;
+}
+
+.input-connexion {
+    color: #2BA1AE;
+    border: 1px solid #2BA1AE;
+    height: 50px;
+    width: 100%;
+}
+
+.bouton-connexion {
+    background-color: #2BA1AE;
+    border: none;
+    padding: 15px 40px 15px 40px;
+    color: white;
+    font-size: 25px;
+}
+
+.centre-bouton-connexion {
+    width: 100%;
+    text-align: center;
+}
+
+.mdp-link {
+    color: #2BA1AE;
+}
