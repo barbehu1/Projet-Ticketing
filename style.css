@@ -95,3 +95,84 @@ html, body, * {
 	background-color: #E68608 !important;
 	border: none !important;
 }
+
+/* Intérieur Ticket */
+
+.body-ticket {
+    margin: 0;
+}
+
+.row-ticket {
+    width: 100vw;
+}
+
+.container-ticket {
+    width: 100vw;
+}
+
+.menu-gauche-ticket {
+    background-color: white;
+    padding: 0;
+    height: 100vh;
+}
+
+.ticket-content {
+    padding: 0;
+}
+
+.user {
+    padding: 19px 28px 19px 28px;
+    border-radius: 0 0 50px 50px;
+    color: #2BA1AE;
+}
+
+.user img {
+    margin-right: 12px;
+}
+
+.user-name {
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+
+.user-type {
+    font-size: 15px;
+}
+
+.menu {
+    padding: 30px;
+    height: 80vh;
+    border-radius: 0 0 50px 50px;
+    background-color: #2BA1AE;
+}
+
+.menu ul {
+    list-style-type: none;
+    color: white;
+    font-size: 22px;
+}
+
+.menu ul li {
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+.selected {
+    color: #2BA1AE;
+    height: 50px;
+    padding: 9px 25px 12px 25px;
+    margin-left: 0 !important;
+}
+
+.disconnection {
+    color: #2BA1AE;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px 0 0 0; 
+}
+
+.ticket-content {
+    background-color: #2BA1AE;
+    color: white;
+    padding: 40px;
+}
