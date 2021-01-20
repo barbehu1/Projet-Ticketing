@@ -49,3 +49,48 @@ html, body, * {
 .mdp-link {
     color: #2BA1AE;
 }
+
+/* Page Ticket Utilisateur */
+
+.container {
+	text-align: center;
+}
+
+.row1 {
+	color: #2BA1AE;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.alert {
+	color: #ffffff !important;
+	text-align: center;
+}
+
+.alert-dark {
+	background-color: transparent !important;
+	padding: 15px !important;
+	margin-left: -15px;
+	margin-right: -15px;
+	border: 20px solid;
+}
+
+.alert-danger {
+	background-color: #B13333 !important;
+	border: none !important;
+}
+
+.alert-primary {
+	background-color: #3359B1 !important;
+	border: none !important;
+}
+
+.alert-success {
+	background-color: #33B137 !important;
+	border: none !important;
+}
+
+.alert-warning {
+	background-color: #E68608 !important;
+	border: none !important;
+}
