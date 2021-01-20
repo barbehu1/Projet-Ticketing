@@ -65,6 +65,7 @@ html, body, * {
 .alert {
 	color: #ffffff !important;
 	text-align: center;
+	margin-bottom: 0 !important;
 }
 
 .alert-dark {
