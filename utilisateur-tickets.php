@@ -15,14 +15,16 @@
         	include('menu-gauche.php');
 		?>
         <div class="col-10 ticket-content">
-	        <nav class="navbar navbar-dark" style="background-color:#2BA1AE;">
-	 			<div class="dropdown">
-					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Projet 1</button>
-				  	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-				    	<a class="dropdown-item" href="#">Projet 2</a>
-				    	<a class="dropdown-item" href="#">Projet 3</a>
-				  	</div>
-				</div>
+	        <nav class="navbar-ticket">
+				<div class="float-left block-gauche">
+						<h1 class="titre-ticket font-weight-bold">Projet 1</h1>
+						<i class="fas fa-chevron-down ml-2 mt-1 icon-down"></i>
+                </div>
+				<div class="float-right">
+                    <i class="fas fa-question-circle right-icons"></i>
+                    <i class="fas fa-bell right-icons"></i>
+                    <i class="fas fa-cog right-icons"></i>
+                </div>
 			</nav>
 
 			<div class="alert alert-light" role="alert">
@@ -49,35 +51,41 @@
 			  			</div>
 					</div>
 					<br>
-			  		<div class="row align-items-center">
-		  				<div class="col"><div class="alert alert-danger rounded-pill" role="alert">P1</div></div>
-						<div class="col">Moi</div>
-						<div class="col-4">Problème d'ouverture de session</div>
-						<div class="col">03/07/2003</div>
-						<div class="col-2"><div class="alert alert-success rounded-pill" role="alert">VALIDÉ</div></div>
-						<div class="col-2">Hugo Barbé</div>
-						<div class="col"><i class="far fa-envelope"></i></div>
-			  		</div>
-			  		<hr>
-			  		<div class="row align-items-center">
-						<div class="col"><div class="alert alert-primary rounded-pill" role="alert">P3</div></div>
-						<div class="col">Moi</div>
-						<div class="col-4">Problème d'ouverture de session</div>
-						<div class="col">03/07/2003</div>
-						<div class="col-2"><div class="alert alert-warning rounded-pill" role="alert">À VALIDER</div></div>
-						<div class="col-2">Hugo Barbé</div>
-						<div class="col"><i class="far fa-envelope"></i></div>
-			  		</div>
-			  		<hr>
-			  		<div class="row align-items-center">
-						<div class="col"><div class="alert alert-warning rounded-pill" role="alert">P2</div></div>
-						<div class="col">Moi</div>
-						<div class="col-4">Problème d'ouverture de session</div>
-						<div class="col">03/07/2003</div>
-						<div class="col-2"><div class="alert alert-primary rounded-pill" role="alert">EN COURS</div></div>
-						<div class="col-2">Hugo Barbé</div>
-						<div class="col"><i class="far fa-envelope"></i></div>
-			  		</div>
+					<a href="creation-ticket.php">
+						<div class="row align-items-center">
+							<div class="col"><div class="alert alert-danger rounded-pill" role="alert">P1</div></div>
+							<div class="col">Moi</div>
+							<div class="col-4">Problème d'ouverture de session</div>
+							<div class="col">03/07/2003</div>
+							<div class="col-2"><div class="alert alert-success rounded-pill" role="alert">VALIDÉ</div></div>
+							<div class="col-2">Hugo Barbé</div>
+							<div class="col"><i class="far fa-envelope"></i></div>
+						</div>
+					</a>
+					<hr>
+					<a href="creation-ticket.php">
+						<div class="row align-items-center">
+							<div class="col"><div class="alert alert-primary rounded-pill" role="alert">P3</div></div>
+							<div class="col">Moi</div>
+							<div class="col-4">Problème d'ouverture de session</div>
+							<div class="col">03/07/2003</div>
+							<div class="col-2"><div class="alert alert-warning rounded-pill" role="alert">À VALIDER</div></div>
+							<div class="col-2">Hugo Barbé</div>
+							<div class="col"><i class="far fa-envelope"></i></div>
+						</div>
+					</a>
+					<hr>
+					<a href="creation-ticket.php">
+						<div class="row align-items-center">
+							<div class="col"><div class="alert alert-warning rounded-pill" role="alert">P2</div></div>
+							<div class="col">Moi</div>
+							<div class="col-4">Problème d'ouverture de session</div>
+							<div class="col">03/07/2003</div>
+							<div class="col-2"><div class="alert alert-primary rounded-pill" role="alert">EN COURS</div></div>
+							<div class="col-2">Hugo Barbé</div>
+							<div class="col"><i class="far fa-envelope"></i></div>
+						</div>
+					</a>
 				</div>
 			</div>
         </div>
