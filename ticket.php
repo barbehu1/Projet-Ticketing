@@ -13,6 +13,7 @@
         <?php include "menu-gauche.php" ?>
         <div class="col-10 ticket-content">
             <h1 class="titre-ticket font-weight-bold"><i class="fas fa-chevron-left"></i> Problème d'ouverture de session</h1>
+            <!-- Ici icones droite navbar -->
             <div class="content-content-ticket container-fluid">
                 <div class="row">
                     <div class="col-9 chat-ticket">
@@ -46,16 +47,16 @@
                         <div class="infos-box font-weight-bold">
                             <p class="infos-title">Date de création</p>
                             <p class="infos-content mb-2">03/07/2021</p>
-                            <p class="infos-title">Date de création</p>
-                            <p class="infos-content mb-2">03/07/2021</p>
-                            <p class="infos-title">Date de création</p>
-                            <p class="infos-content mb-2">03/07/2021</p>
-                            <p class="infos-title">Date de création</p>
-                            <p class="infos-content mb-2">03/07/2021</p>
-                            <p class="infos-title">Date de création</p>
-                            <p class="infos-content mb-2">03/07/2021</p>
-                            <p class="infos-title">Date de création</p>
-                            <p class="infos-content">03/07/2021</p>
+                            <p class="infos-title">Créateur</p>
+                            <p class="infos-content mb-2">Loïc Guéniau</p>
+                            <p class="infos-title">Administrateur en charge</p>
+                            <p class="infos-content mb-2">Hugo Barbé</p>
+                            <p class="infos-title">Statut du ticket</p>
+                            <p class="infos-content mb-2">Validé</p>
+                            <p class="infos-title">Priorité</p>
+                            <p class="infos-content mb-2">P1</p>
+                            <p class="infos-title">Dernier message</p>
+                            <p class="infos-content">14:30 07/07/2021</p>
                         </div>
                     </div>
                 </div>
