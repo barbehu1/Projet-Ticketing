@@ -64,9 +64,9 @@ html, body, * {
 }
 
 .alert {
-	color: #ffffff !important;
 	text-align: center;
-	margin-bottom: 0 !important;
+	margin-bottom: 0px !important;
+    color:#010101 !important;
 }
 
 .alert-dark {
@@ -77,25 +77,58 @@ html, body, * {
 	border: 20px solid;
 }
 
+.alert-light {
+    border-radius: 50px 50px 0 0 !important;
+    margin-bottom: 0;
+    height: 100%;
+}
+
 .alert-danger {
 	background-color: #B13333 !important;
 	border: none !important;
+    color:#ffffff !important;
 }
 
 .alert-primary {
 	background-color: #3359B1 !important;
 	border: none !important;
+    color:#ffffff !important;
 }
 
 .alert-success {
 	background-color: #33B137 !important;
 	border: none !important;
+    color:#ffffff !important;
 }
 
 .alert-warning {
 	background-color: #E68608 !important;
 	border: none !important;
+    color:#ffffff !important;
 }
+
+.col-10 {
+    padding: 0 !important;
+    background-color: #2BA1AE;
+}
+
+button {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.dropdown   {
+    overflow: visible;
+}
+
+.dropdown-menu {
+    overflow: visible;
+}
+
+.dropdown-item {
+    overflow: visible;
+}
+
 
 /* Intérieur Ticket */
 
@@ -113,7 +146,7 @@ html, body, * {
 
 .menu-gauche-ticket {
     background-color: white;
-    padding: 0;
+    padding: 0 !important;
     height: 100vh;
 }
 
