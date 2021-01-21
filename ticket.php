@@ -10,24 +10,57 @@
 </head>
 <body class="container-fluid">
     <div class="row row-ticket">
-        <div class="col-2 menu-gauche-ticket">
-            <div class="user bg-light">
-                <img src="https://picsum.photos/id/237/71/71" class="rounded-circle float-left">
-                <p class="user-name font-weight-bold">Loïc Guéniau</p>
-                <p class="user-type">Utilisateur</p>
-            </div>
-            <div class="menu">
-                <ul class="font-weight-bold">
-                   <li class="selected bg-light rounded-pill"><i class="far fa-file-alt"></i> Tickets</li>
-                   <li><i class="far fa-clipboard"></i> Projets</li>
-                   <li><i class="fas fa-cog"></i> Paramètres</li>
-                </ul>
-            </div>
-            <div class="disconnection">
-                <p class="font-weight-bold mx-auto"><i class="fas fa-power-off"></i> Déconnexion</p>
+        <?php include "menu-gauche.php" ?>
+        <div class="col-10 ticket-content">
+            <h1 class="titre-ticket font-weight-bold"><i class="fas fa-chevron-left"></i> Problème d'ouverture de session</h1>
+            <div class="content-content-ticket container-fluid">
+                <div class="row">
+                    <div class="col-9 chat-ticket">
+                        <p class="font-italic action-message">Vous avez créé le ticket.</p>
+                        <div class="user-message mb-3">
+                            <p class="font-weight-bold mb-0">Problème d'ouverture de session</p>
+                            <p class="mb-0">Bonjour, j'ai un souci avec l'ouverture de ma session. Je rentre mon mot de passe mais on me
+                            dit que celui-ci est incorrect. Je suis pourtant sûr que c'est le bon mot de passe que je rentre.<br>
+                            Pouvez-vous m'aider svp.<br>
+                            Cordialement,<br>
+                            Loïc</p>
+                        </div>
+                        <p class="font-italic action-message">Hugo Barbé a pris en charge le ticket.</p>
+                        <div class="admin-message mb-3">
+                            <p class="mb-0">Bonjour, je prends en charge votre ticket.<br>
+                            Je vais réinitialiser votre mot de passe. A votre prochaine connexion il vous sera demandé
+                            de choisir un nouveau mot de passe.<br>
+                            Cdlt,<br>
+                            Hugo</p>
+                        </div>
+                        <div class="user-message mb-3">
+                            <p>C'est bon j'ai pu modifier mon mot de passe et me connecter !<br>
+                            Merci beaucoup<br>
+                            Cdlt,<br>
+                            Loïc</p>
+                        </div>
+                        <p class="font-italic action-message">Hugo Barbé a modifié le statut du ticket en "Validé".</p>
+                        <p class="font-italic action-message">Le ticket a été cloturé, vous ne pouvez plus y répondre.</p>
+                    </div>
+                    <div class="col-3 infos-ticket">
+                        <div class="infos-box font-weight-bold">
+                            <p class="infos-title">Date de création</p>
+                            <p class="infos-content mb-2">03/07/2021</p>
+                            <p class="infos-title">Date de création</p>
+                            <p class="infos-content mb-2">03/07/2021</p>
+                            <p class="infos-title">Date de création</p>
+                            <p class="infos-content mb-2">03/07/2021</p>
+                            <p class="infos-title">Date de création</p>
+                            <p class="infos-content mb-2">03/07/2021</p>
+                            <p class="infos-title">Date de création</p>
+                            <p class="infos-content mb-2">03/07/2021</p>
+                            <p class="infos-title">Date de création</p>
+                            <p class="infos-content">03/07/2021</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-10 ticket-content">Problème d'ouverture de session</div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -1,8 +1,10 @@
 <div class="col-2 menu-gauche-ticket">
-    <div class="user bg-light">
-        <img src="https://picsum.photos/id/237/71/71" class="rounded-circle float-left">
-        <p class="user-name font-weight-bold">Loïc Guéniau</p>
-        <p class="user-type">Utilisateur</p>
+    <div class="bg-info">
+        <div class="user bg-light">
+            <img src="https://picsum.photos/id/237/71/71" class="rounded-circle float-left">
+            <p class="user-name font-weight-bold">Loïc Guéniau</p>
+            <p class="user-type">Utilisateur</p>
+        </div>
     </div>
     <div class="menu">
         <ul class="font-weight-bold">
