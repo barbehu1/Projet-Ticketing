@@ -11,9 +11,25 @@
 <body class="container-fluid">
 
 	<div class="row row-ticket">
-        <?php
-        	include('menu-gauche.php');
-		?>
+		<div class="col-2 menu-gauche-ticket">
+			<div class="bg-info">
+				<div class="user bg-light">
+					<img src="https://picsum.photos/71/71?grayscale" class="rounded-circle float-left">
+					<p class="user-name font-weight-bold">Hugo Barbé</p>
+					<p class="user-type">Administrateur</p>
+				</div>
+			</div>
+			<div class="menu">
+				<ul class="font-weight-bold">
+					<li class="selected bg-light rounded-pill"><i class="far fa-file-alt"></i> Tickets</li>
+					<li><i class="far fa-clipboard"></i> Projets</li>
+					<li><i class="fas fa-cog"></i> Paramètres</li>
+				</ul>
+			</div>
+			<div class="disconnection">
+				<p class="font-weight-bold mx-auto"><i class="fas fa-power-off"></i> Déconnexion</p>
+			</div>
+		</div>
         <div class="col-10 ticket-content">
 			<nav class="navbar-ticket">
 				<div class="float-left block-gauche">
@@ -59,7 +75,7 @@
 			  			</div>
 					</div>
 					<br>
-					<a href="creation-ticket.php">
+					<a href="ticket.php">
 			  			<div class="row align-items-center">
 			  				<div class="col"><div class="alert alert-danger rounded-pill" role="alert">P1</div></div>
 							<div class="col">Moi</div>
@@ -72,7 +88,7 @@
 			  			</div>
 			  		</a>
 			  		<hr>
-			  		<a href="creation-ticket.php">
+			  		<a href="ticket.php">
 			  			<div class="row align-items-center">
 							<div class="col"><div class="alert alert-primary rounded-pill" role="alert">P3</div></div>
 							<div class="col">Moi</div>
@@ -86,7 +102,7 @@
 			  		</a>
 			  		
 			  		<hr>
-			  		<a href="creation-ticket.php">
+			  		<a href="ticket.php">
 			  			<div class="row align-items-center">
 							<div class="col"><div class="alert alert-warning rounded-pill" role="alert">P2</div></div>
 							<div class="col">Moi</div>
