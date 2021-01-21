@@ -12,8 +12,17 @@
     <div class="row row-ticket">
         <?php include "menu-gauche.php" ?>
         <div class="col-10 ticket-content">
-            <h1 class="titre-ticket font-weight-bold"><i class="fas fa-chevron-left"></i> Problème d'ouverture de session</h1>
-            <!-- Ici icones droite navbar -->
+            <div class="navbar-ticket">
+                <div class="float-left block-gauche">
+                    <i class="fas fa-chevron-left mr-4 mt-1 icon-back"></i>
+                    <h1 class="titre-ticket font-weight-bold">Problème d'ouverture de session</h1>
+                </div>
+                <div class="float-right">
+                    <i class="fas fa-question-circle right-icons"></i>
+                    <i class="fas fa-bell right-icons"></i>
+                    <i class="fas fa-cog right-icons"></i>
+                </div>
+            </div>
             <div class="content-content-ticket container-fluid">
                 <div class="row">
                     <div class="col-9 chat-ticket">
@@ -54,7 +63,9 @@
                             <p class="infos-title">Statut du ticket</p>
                             <p class="infos-content mb-2">Validé</p>
                             <p class="infos-title">Priorité</p>
-                            <p class="infos-content mb-2">P1</p>
+                            <div class="rounded-pill infos-priority">
+                                P1
+                            </div>
                             <p class="infos-title">Dernier message</p>
                             <p class="infos-content">14:30 07/07/2021</p>
                         </div>

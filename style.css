@@ -112,7 +112,7 @@ html, body, * {
     background-color: #2BA1AE;
 }
 
-button {
+.boutons {
     background-color: transparent !important;
     border: none !important;
 }
@@ -128,7 +128,6 @@ button {
 .dropdown-item {
     overflow: visible;
 }
-
 
 /* Intérieur Ticket */
 
@@ -210,9 +209,27 @@ button {
     color: white;
 }
 
+.navbar-ticket {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
 .titre-ticket {
     font-size: 25px;
-    margin: 40px 0 40px 40px;
+}
+
+.block-gauche {
+    display: flex;
+}
+
+.icon-back {
+    font-size: 25px;
+}
+
+.right-icons {
+    font-size: 30px;
+    margin-left: 65px;
 }
 
 .content-content-ticket {
@@ -266,4 +283,94 @@ button {
 .infos-content {
     font-size: 20px;
     margin: 0;
+}
+
+.infos-priority {
+    padding: 1px 10px;
+    background-color: #B13333;
+    width: 40px;
+    text-align: center;
+}
+
+/* Projets */
+
+.project-box {
+    border-radius: 50px;
+    background-color: #2BA1AE;
+    padding: 30px 35px;
+    margin-right: 35px;
+}
+
+.projet-title {
+    font-size: 30px;
+}
+
+/* Création d'un ticket */
+
+.label {
+    color: #2BA1AE;
+    font-size: 20px;
+}
+
+.input {
+    border: 2px solid #2BA1AE;
+    height: 50px;
+    width: 1175px;
+}
+
+.textarea {
+    border-radius: 50px;
+    border: 2px solid #2BA1AE;
+    width: 1175px;
+    height: 350px;
+}
+
+.select-priority {
+    background-color: #3359B1;
+    border: 0;
+    height: 50px;
+    width: 85px;
+}
+
+.select-priority:hover {
+    border: 0;
+    background-color: #3359B1;
+    color: white;
+}
+
+.select-priority:focus {
+    border: 0 !important;
+    background-color: #3359B1 !important;
+    color: white !important;
+    box-shadow: none !important;
+}
+
+.select-project {
+    border: 2px solid #2BA1AE;
+    background-color: white;
+    color: #2BA1AE;
+    height: 50px;
+    width: 180px;
+}
+
+.select-project:hover {
+    border: 2px solid #2BA1AE;
+    background-color: white;
+    color: #2BA1AE;
+}
+
+.select-project:focus {
+    border: 2px solid #2BA1AE !important;
+    background-color: white !important;
+    color: #2BA1AE !important;
+    box-shadow: none !important;
+}
+
+.bouton-create {
+    height: 70px;
+    width: 250px;
+    border: none;
+    background-color: #2BA1AE;
+    color: white;
+    font-size: 25px;
 }

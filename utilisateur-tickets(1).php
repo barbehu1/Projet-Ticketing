@@ -28,58 +28,62 @@
 			<div class="alert alert-light" role="alert">
 				<nav class="navbar navbar-light">
 			  		<form class="form-inline">
-			    		<input class="form-control mr-sm-2" type="search" placeholder="_____________________" aria-label="Search">
-			    		<button class="btn boutons my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-			  			<button class="btn boutons my-2 my-sm-0" type="submit"><i class="fas fa-filter"></i>
+			    		<input class="mr-sm-2 search-bar" type="search" aria-label="Search">
+			    		<button class="btn my-2 my-sm-0" type="submit"><i class="fas fa-search" style="font-size: 22px; color: #ADB5BD;"></i></button>
+			  			<button class="btn my-2 my-sm-0" type="submit" style="font-size: 20px; color:#ADB5BD;"><i class="fas fa-filter"></i></button>
+
 			  		</form>
+			  		<i class="fas fa-th" style="font-size: 22px; text-align: right; color: #ADB5BD;"></i>
 				</nav>
 
-				<div class="container">
+				<div class="container-fluid">
 			  		<div class="alert alert-dark rounded-pill" role="alert">
 			  			<div class="row row1">
 							<div class="col">Priorité</div>
 							<div class="col">Créateur</div>
-							<div class="col-5">Titre</div>
+							<div class="col-4">Titre</div>
 							<div class="col">Date</div>
 							<div class="col-2">Statut</div>
-							<div class="col">Contacts</div>
+							<div class="col-2">Administrateur</div>
 							<div class="col"><i class="fas fa-bell"></i></div>
 			  			</div>
 					</div>
-
-			  		<br>
+					<br>
 			  		<div class="row align-items-center">
-		  				<div class="w-100"></div>
 		  				<div class="col"><div class="alert alert-danger rounded-pill" role="alert">P1</div></div>
 						<div class="col">Moi</div>
-						<div class="col-5">Problème d'ouverture de session</div>
+						<div class="col-4">Problème d'ouverture de session</div>
 						<div class="col">03/07/2003</div>
 						<div class="col-2"><div class="alert alert-success rounded-pill" role="alert">VALIDÉ</div></div>
-						<div class="col">Hugo Barbé</div>
-						<div class="col"><i class="far fa-envelope"></i></div>		
-						
-						<div class="w-100"></div>
+						<div class="col-2">Hugo Barbé</div>
+						<div class="col"><i class="far fa-envelope"></i></div>
+			  		</div>
+			  		<hr>
+			  		<div class="row align-items-center">
 						<div class="col"><div class="alert alert-primary rounded-pill" role="alert">P3</div></div>
 						<div class="col">Moi</div>
-						<div class="col-5">Problème d'ouverture de session</div>
+						<div class="col-4">Problème d'ouverture de session</div>
 						<div class="col">03/07/2003</div>
 						<div class="col-2"><div class="alert alert-warning rounded-pill" role="alert">À VALIDER</div></div>
-						<div class="col">Hugo Barbé</div>
+						<div class="col-2">Hugo Barbé</div>
 						<div class="col"><i class="far fa-envelope"></i></div>
-
-						<div class="w-100"></div>
+			  		</div>
+			  		<hr>
+			  		<div class="row align-items-center">
 						<div class="col"><div class="alert alert-warning rounded-pill" role="alert">P2</div></div>
 						<div class="col">Moi</div>
-						<div class="col-5">Problème d'ouverture de session</div>
+						<div class="col-4">Problème d'ouverture de session</div>
 						<div class="col">03/07/2003</div>
 						<div class="col-2"><div class="alert alert-primary rounded-pill" role="alert">EN COURS</div></div>
-						<div class="col">Hugo Barbé</div>
+						<div class="col-2">Hugo Barbé</div>
 						<div class="col"><i class="far fa-envelope"></i></div>
 			  		</div>
 				</div>
 			</div>
         </div>
     </div>
+
+    <a href="#"><img class="plus" src="plus.svg"></a>
 
 	<!--<ul class="list-group">
 	  <li class="list-group-item active" aria-current="true"><a href="utilisateur-tickets.php">Tickets</a></li>
